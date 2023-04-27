@@ -22,7 +22,8 @@ with open('StudentList.txt', 'r') as data:
         elif gwa < highest_gwa:
             highest_gwa = gwa
             highest_gwa_student = name
-
+        
+        #Print the Highest and Lowest GWA Students
     print(
         f'The student with the highest GWA is {highest_gwa_student} with a GWA of {highest_gwa}.')
     print(
